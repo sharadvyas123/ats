@@ -1,0 +1,33 @@
+{
+  "name": "ats-ui",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --turbopack",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@barba/core": "^2.10.3",
+    "@barba/css": "^2.1.16",
+    "@hookform/resolvers": "^5.1.1",
+    "axios": "^1.10.0",
+    "framer-motion": "^12.23.0",
+    "lucide-react": "^0.525.0",
+    "next": "15.3.5",
+    "nookies": "^2.5.2",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-dropzone": "^14.3.8",
+    "react-hook-form": "^7.60.0",
+    "yup": "^1.6.1"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3",
+    "@tailwindcss/postcss": "^4",
+    "eslint": "^9",
+    "eslint-config-next": "15.3.5",
+    "tailwindcss": "^4"
+  }
+}
